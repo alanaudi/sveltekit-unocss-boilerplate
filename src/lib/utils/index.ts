@@ -1,2 +1,2 @@
 // vite define
-export const ALOG_VERSION = __ALOG_VERSION__
+export const APP_VERSION = __APP_VERSION__

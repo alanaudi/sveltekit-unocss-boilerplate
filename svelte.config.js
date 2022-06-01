@@ -29,7 +29,7 @@ const config = {
         }),
       ],
       define: {
-        __ALOG_VERSION__: JSON.stringify(pkg.version),
+        __APP_VERSION__: JSON.stringify(pkg.version),
       },
     },
   },
