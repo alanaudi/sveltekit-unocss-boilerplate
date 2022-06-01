@@ -29,5 +29,8 @@
     "typescript": "~4.6.2",
     "unocss": "^0.37.1"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@unocss/reset": "^0.37.1"
+  }
 }

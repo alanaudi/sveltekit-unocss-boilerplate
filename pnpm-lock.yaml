@@ -5,6 +5,7 @@ specifiers:
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': ^5.10.1
   '@typescript-eslint/parser': ^5.10.1
+  '@unocss/reset': ^0.37.1
   eslint: ^8.12.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^4.0.0
@@ -16,6 +17,9 @@ specifiers:
   tslib: ^2.3.1
   typescript: ~4.6.2
   unocss: ^0.37.1
+
+dependencies:
+  '@unocss/reset': 0.37.1
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.50
@@ -485,7 +489,6 @@ packages:
 
   /@unocss/reset/0.37.1:
     resolution: {integrity: sha512-e8Y32Q0DPgUt2dD5KQan//xxmEG7+XaD6OvGywxjM7WEZLLdqFDHwC9Yo3i7EqXyid8RSyVigZ3G6/nzKF3uaQ==}
-    dev: true
 
   /@unocss/scope/0.37.1:
     resolution: {integrity: sha512-XR/IelnwhKT3bYgVB/mHmA/3CUTmkZzO1Fj9qu2hXSu+crD2SB8j78hzPp+sGAeOs12UXD57EQNE5Kpd+H2sLw==}
