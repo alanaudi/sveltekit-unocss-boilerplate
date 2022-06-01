@@ -13,6 +13,7 @@
    * styling
    */
   import 'uno.css'
+  import '../global.scss'
 </script>
 
 <slot />
