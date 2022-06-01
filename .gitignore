@@ -1,8 +1,18 @@
+# misc
 .DS_Store
+
+# project
+!.vscode
+
+# dependencies
 node_modules
+
+# sveltekit
 /build
 /.svelte-kit
 /package
+
+# env
 .env
 .env.*
 !.env.example
