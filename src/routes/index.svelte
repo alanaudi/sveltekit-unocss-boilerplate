@@ -2,7 +2,7 @@
   import { ALOG_VERSION } from '$lib/utils'
 </script>
 
-<a href="/" class="font-black text-3xl text-orange-500">Alog</a>
+<a href="/" class="font-logo text-2xl text-orange-500">Alog</a>
 
 <ul>
   <li><a href="/">Blog</a></li>
