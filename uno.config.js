@@ -4,6 +4,11 @@ import transformerDirective from '@unocss/transformer-directives'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 export default defineConfig({
+  theme: {
+    colors: {
+      black: '#1C1D20',
+    },
+  },
   // https://github.com/unocss/unocss#presets
   presets: [
     // this is required to use basic unocss
