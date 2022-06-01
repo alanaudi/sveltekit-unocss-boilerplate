@@ -1,5 +1,7 @@
 import { defineConfig, presetUno } from 'unocss'
 import presetWebFonts from '@unocss/preset-web-fonts'
+import transformerDirective from '@unocss/transformer-directives'
+import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 export default defineConfig({
   // https://github.com/unocss/unocss#presets
@@ -19,4 +21,5 @@ export default defineConfig({
       },
     }),
   ],
+  transformers: [transformerDirective(), transformerVariantGroup()],
 })

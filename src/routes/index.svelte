@@ -9,4 +9,6 @@
   <li><a href="/">About</a></li>
 </ul>
 
-{ALOG_VERSION}
+<div class="main text-(4xl red-500)">
+  {ALOG_VERSION}
+</div>
