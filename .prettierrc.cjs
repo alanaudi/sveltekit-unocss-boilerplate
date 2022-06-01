@@ -1,5 +1,5 @@
 module.exports = {
-  bracketSpacing: false,
+  bracketSpacing: true,
   proseWrap: 'always',
   printWidth: 80,
   semi: false,
