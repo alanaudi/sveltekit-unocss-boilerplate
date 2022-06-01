@@ -2,6 +2,9 @@
 import adapter from '@sveltejs/adapter-auto'
 import preprocess from 'svelte-preprocess'
 
+// style
+import Unocss from 'unocss/vite'
+
 // file system and url
 import { readFileSync } from 'fs'
 import { fileURLToPath } from 'url'
@@ -20,6 +23,11 @@ const config = {
   kit: {
     adapter: adapter(),
     vite: {
+      plugins: [
+        Unocss({
+          /* options are defined in uno.config.js */
+        }),
+      ],
       define: {
         __ALOG_VERSION__: JSON.stringify(pkg.version),
       },
